@@ -1,0 +1,33 @@
+# 环境变量与本地配置 —— 严禁提交
+.env
+.env.local
+*.env
+
+# MCP 配置含真实 Token，仅允许提交脱敏示例
+mcp-config.json
+mcp-config.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 本地调试产物
+*.log
+!assets/**
+!assets/*.gif
+debug_*.py
+tmp_*.json
+*.tmp
+
+# 系统还原临时文件
+*.sys
