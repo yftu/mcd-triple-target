@@ -1,5 +1,5 @@
 ---
-name: mcd-nutrition-planner
+name: mcd-triple-target
 description: 麦门营养配餐官。基于麦当劳官方 MCP 实时营养与菜单数据，按热量、蛋白质、预算三目标做配餐优化。适用于减脂控卡、增肌补充、工作日午餐决策、忌口筛选、营养信息查询等场景。当用户提到「减脂期吃麦当劳」「增肌吃什么」「午餐预算」「帮我配餐」「多少热量」「高蛋白」「营养成分」或询问麦当劳餐品热量、蛋白含量时使用。触发词：麦当劳、麦门、麦辣鸡腿堡、巨无霸、麦满分、麦香鱼、点餐、配餐、热量、卡路里、蛋白质、营养、控卡、减脂餐、增肌餐。
 ---
 
@@ -216,7 +216,7 @@ create-order         必传 storeCode、orderType、beType
 ## 八、目录结构
 
 ```
-mcd-nutrition-planner/
+mcd-triple-target/
 ├── SKILL.md                      # 本文件
 ├── README.md                     # 项目介绍与使用示例
 ├── CONTEST_DECLARATION.md        # 参赛声明（内容固定，勿改）

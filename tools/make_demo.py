@@ -199,8 +199,8 @@ def main() -> None:
         step_frames = list(steps)
         # 关键步骤多停留，让动图更好读
         for n in step_frames:
-            frames.append(render(sc, n, "mcd-nutrition-planner — 演示场景 %d/2" % (si + 1)))
-            frames.append(render(sc, n, "mcd-nutrition-planner — 演示场景 %d/2" % (si + 1)))
+            frames.append(render(sc, n, "mcd-triple-target — 演示场景 %d/2" % (si + 1)))
+            frames.append(render(sc, n, "mcd-triple-target — 演示场景 %d/2" % (si + 1)))
 
     path = os.path.join(OUT, "demo.gif")
     frames[0].save(

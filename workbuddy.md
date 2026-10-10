@@ -8,8 +8,8 @@
 
 | 项 | 内容 |
 |---|---|
-| 项目名称 | 麦门营养配餐官（mcd-nutrition-planner） |
-| 项目地址 | https://github.com/yftu/mcd-nutrition-planner |
+| 项目名称 | 麦门营养配餐官（mcd-triple-target） |
+| 项目地址 | https://github.com/yftu/mcd-triple-target |
 | 项目简介 | 身材管控期也想吃麦当劳？营养配餐官按热量、蛋白质、预算三目标，为你优化出具体组合并标注达标率 |
 | 使用的智能体 | 腾讯 WorkBuddy |
 | 开发工具 | WorkBuddy 技能开发模式（Agent 模式） |

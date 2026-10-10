@@ -105,7 +105,7 @@ class McdMcpClient:
         self._rpc("initialize", {
             "protocolVersion": PROTOCOL_VERSION,
             "capabilities": {},
-            "clientInfo": {"name": "mcd-nutrition-planner", "version": "1.0.0"},
+            "clientInfo": {"name": "mcd-triple-target", "version": "1.0.0"},
         })
         self._rpc("notifications/initialized", {}, notify=True)
         self._initialized = True

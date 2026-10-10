@@ -13,7 +13,7 @@
 
 set -euo pipefail
 
-REPO_NAME="mcd-nutrition-planner"
+REPO_NAME="mcd-triple-target"
 GITHUB_USER="yftu"
 REPO_URL="git@github.com:${GITHUB_USER}/${REPO_NAME}.git"
 

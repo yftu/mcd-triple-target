@@ -251,7 +251,7 @@ TDEE = BMR × 活动系数（1.2 / 1.375 / 1.55 / 1.725 / 1.9）
 ## 七、项目结构
 
 ```
-mcd-nutrition-planner/
+mcd-triple-target/
 ├── SKILL.md                      # Skill 主文件（Agent 直接读取）
 ├── README.md                     # 本文件
 ├── CONTEST_DECLARATION.md        # 参赛声明（内容固定）

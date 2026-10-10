@@ -19,7 +19,7 @@
 
 set -euo pipefail
 
-REPO_NAME="mcd-nutrition-planner"
+REPO_NAME="mcd-triple-target"
 GITHUB_USER="${1:-}"
 
 if [ -z "$GITHUB_USER" ]; then
